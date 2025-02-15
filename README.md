@@ -6,13 +6,13 @@
 
 **2. Схема БД**
    
-  1️⃣ users (Id, Username, login, password)
+  1 users (Id, Username, login, password)
    
-  2️⃣ excuses (Id, text, category_id, plausibility)
+  2 excuses (Id, text, category_id, plausibility)
    
-  3️⃣ categories (id, name)
+  3 categories (id, name)
    
-  4️⃣ user_favorites (id, user_id, excuse_id)
+  4 user_favorites (id, user_id, excuse_id)
 
   users → user_favorites (1 ко многим)
 
