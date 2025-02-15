@@ -14,6 +14,13 @@
    
   4️⃣ user_favorites (id, user_id, excuse_id)
 
+  users → user_favorites (1 ко многим)
+
+excuses → categories (многие к 1)
+
+excuses → user_favorites (1 ко многим)
+
+
 **3. Схема API** 
   ????
 
