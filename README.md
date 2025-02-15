@@ -8,9 +8,9 @@
    
   1️⃣ users (Id, Username, login, password)
    
-  2️⃣ excuses (Id, text, category_id, ??plausibility??)
+  2️⃣ excuses (Id, text, category_id, plausibility)
    
-  3️⃣ categories (id, name, plausibility)
+  3️⃣ categories (id, name)
    
   4️⃣ user_favorites (id, user_id, excuse_id)
 
