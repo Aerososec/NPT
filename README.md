@@ -14,6 +14,8 @@
    
   4 user_favorites (id, user_id, excuse_id)
 
+  *Отношения :*
+
   users → user_favorites (1 ко многим)
 
 excuses → categories (многие к 1)
